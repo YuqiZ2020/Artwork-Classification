@@ -19,7 +19,8 @@ Summary of how to design and implement VGG and TL for this project
     1.1 Prepare dataset: Manipulate original dataset into two folders: test and train. 
         a. Under each folder there are four subfolders corresponding to four catagories. 
         b. 80:20 ration is chosen here, the total test cases are 2971 and the total validation cases are 1275.
-    1.2 Store images information via "Preparing Training image data/Preparing validation images data" to transfer image information into designed array.
+    1.2 Store images information.
+        From "Preparing training/validation images data" part to transfer image information into designed array.
     1.3 Build default VGG model with transfer leaning.
       Some declarations:
         a. We want to carry weights as it was in original model, so we are carring weights = 'imagenet'.
