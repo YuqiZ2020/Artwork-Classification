@@ -9,6 +9,6 @@ Artwork Classification: Using Machine Learning Models to Classify Artwork Types
 
 ### Alexnet
 
-### VGG and VGG w/ Transfer Learning
+### VGG and VGG with Transfer Learning
 
 ### Interpretable Feature Extraction
