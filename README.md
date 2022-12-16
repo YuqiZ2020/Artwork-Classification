@@ -12,6 +12,10 @@ We included a basic CNN model as a baseline. The model has three layer, each lay
 ## Models
 
 ### Alexnet
+AlexNet is a convolutional neural network (CNN) that was trained on the ImageNet dataset and won the 2012 ImageNet Large Scale Visual Recognition Challenge (ILSVRC). The AlexNet architecture consists of five convolutional layers and three fully-connected layers. It uses the ReLU activation function between the convolutional layers, ross-entropy (logistic loss) as the objective function, and the Adam optimizer for gradient descent.
+
+We used pytorch's implementation of AlexNet as a template (https://pytorch.org/vision/main/_modules/torchvision/models/alexnet.html), and tuned hyperparamters such as the dimension of image, image preprocessing procedure, batch sizee, learning rate, and the number of epoches.
+
 
 ### VGG and VGG with Transfer Learning
 Transfer learning (TL) is a research problem in machine learning (ML) that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem. For example, knowledge gained while learning to recognize cars could apply when trying to recognize trucks. (Source: https://en.wikipedia.org/wiki/Transfer_learning)
