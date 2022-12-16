@@ -52,13 +52,13 @@ Summary of how to design and implement VGG and TL for this project
           c.4 It might be hard to dampen the effect and enhance the validition accuracy from modify the model itself. 
           c.5 The latent solution might be pre-processing the dataset as extracting principal component for each artpieces.
 ### Autoencoder for Interpretable features
-Summary of AutoencoderSVD.ipynb
+All code related with the interpretable key features is in AutoencoderSVD.ipynb. Summary of AutoencoderSVD.ipynb
 
-    1.1 Prepare dataset and Store images information.
+    1.1 Prepare dataset and store images information.
     1.2 Build autoencoder model.
     1.3 Compile and train the model.
-    1.4 Form latent matrix
-    1.5 Perform PCA/SVD
+    1.4 Form the latent matrix using encoder from autoencoder
+    1.5 Perform PCA/SVD on the latent matrix
     1.6 Visualize the principal components using decoder from autoencoder 
     
 Reference: https://www.kaggle.com/code/cdeotte/dog-autoencoder
