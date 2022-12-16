@@ -3,6 +3,8 @@ Artwork Classification: Using Machine Learning Models to Classify Artwork Types
 
 ## Data Sources and Data Preprocessing
 
+The dataset is collected from the Rijksmuseum (Amsterdam, the Netherlands) via its own public online system. It is a large, diverse and open dataset of art objects to support and evaluate automatic art classification and retrieval techniques. It is a set of over 110,000 objects consisting of digital images. For this project, over 4,000 images are selcted over the whole datasets. The works of art date from ancient times, medieval ages and the late 19th century.
+
 ## Baseline
 
 We included a basic CNN model as a baseline. The model has three layer, each layer consisting of convolutional layer of kernel_size=3, stride=1, padding=1 and a max pooling layer. The channels are increased from 3 to 12 to 24. These choices are common practices of constructing CNN models. The detailed code is shown in Basic_CNN.ipynb with accuracy 62% and a prediction matrix.  
