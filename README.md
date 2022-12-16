@@ -3,7 +3,7 @@ Artwork Classification: Using Machine Learning Models to Classify Artwork Types
 
 ## Data Sources and Data Preprocessing
 
-The dataset is collected from the Rijksmuseum (Amsterdam, the Netherlands) via its own public online system. It is a large, diverse and open dataset of art objects to support and evaluate automatic art classification and retrieval techniques. It is a set of over 110,000 objects consisting of digital images. For this project, over 4,000 images are selcted over the whole datasets. The works of art date from ancient times, medieval ages and the late 19th century. We randomly choose around 1000 images from each of the 4 classes to make our datasets class-balanced. We included data augmentation such as random horizontal and vertical flip and we randomly croped the images to squares of size 512 * 512 with padding to allow easier training. This is because most of the CNN models take in square images.
+The dataset is collected from the Rijksmuseum (Amsterdam, the Netherlands) via its own public online system. It is a large, diverse and open dataset of art objects to support and evaluate automatic art classification and retrieval techniques. It is a set of over 110,000 objects consisting of digital images. For this project, over 4,000 images are selcted over the whole datasets. The works of art date from ancient times, medieval ages and the late 19th century. We randomly choose around 1000 images from each of the 4 classes to make our datasets class-balanced.
 
 ## Baseline
 
